@@ -1,0 +1,232 @@
+.generate_shortcode_div1{
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+.shortcode_del_button{
+    margin-left:2px;
+    cursor:pointer;
+    border:none;
+    outline:none;
+    color:#0078d4;
+}
+.shortcode_copy_button{
+    color:#0078d4;
+    cursor:pointer;
+    border:none;
+    outline:none;
+}
+.premium_crown{
+    width:4%;
+    margin-left:15px;
+}
+.premium_resource_types:hover p.nameid-prem-text{
+    display:block !important;
+}
+.res_type_table td{
+    padding-left: 5px;
+    padding-right: 100px;
+}
+.hovertext {
+    position: relative;
+    border-bottom: 1px dotted black;
+}  
+.hovertext:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 140px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+}
+.hovertext:hover:before {
+    opacity: 1;
+    visibility: visible;
+}
+.dashicons-info-outline{
+    font-size:18px;
+}
+.tooltip_cshortcode {
+    position: relative;
+    display: inline-block;
+}
+.tooltip_cshortcode .tooltiptext_cshortcode {
+    visibility: hidden;
+    width: 120px;
+    background-color: #bebecc;
+    color:black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    margin-left: -60px;
+    opacity: 1;
+}
+.tooltiptext_cshortcode{
+    left: 17px ;
+    top: 100% !important;
+    position: absolute;
+    width:100px;
+}
+.tooltip_cshortcode .tooltiptext_cshortcode::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #bebecc transparent;
+}
+.tooltip_cshortcode:hover .tooltiptext_cshortcode {
+    visibility: visible;
+}
+.button-container{
+    margin-left:auto;
+    display:flex;
+}
+
+input.disabled, input:disabled, select.disabled, select:disabled, textarea.disabled, textarea:disabled,button:disabled {
+    background:  rgba(114, 115, 116, 0.5) !important;
+    border-color: rgba(220,220,222,.75) !important;
+    box-shadow: inset 0 1px 2px rgb(0 0 0 / 4%) !important;
+    color: rgba(44,51,56,.5) !important;
+}
+.premium_resource_types{
+    padding: 1rem;
+    background: #f4f4f4;
+    border: 4px solid #d5e2ff;
+    border-radius: 5px;
+}
+.shortcode-container{
+    padding-top:10px;
+}
+.nameid-prem-text{
+    display: none;
+    width: 400px;
+    background-color: #000000d4;
+    color: #fff;
+    font-size: 1.1rem;
+    text-align: center;
+    border-radius: 6px;
+    padding: 0.6em 0.5em;
+    left:225px;
+    top:-40px;
+    position: absolute;
+}
+.nameid-prem-text::after{
+    content: " ";
+    position: absolute;
+    top: 54%;
+    right: 100%;
+    margin-top: -28px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #000 transparent transparent
+}
+.header_span{
+    position: relative;
+    font-size: 18px;
+    font-weight: 200;
+    display:flex;
+}
+.rls_advertise:hover .nameid-prem-text{
+ display: block;   
+}
+
+.cancelbtn, .deletebutton {
+    float: left;
+    width: 50%;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+  }
+  .cancelbtn:hover .deletebutton:hover{
+    opacity:1;
+  }
+  .cancelbtn {
+    background-color: #ccc;
+    color: black;
+  }
+  .deletebutton {
+    background-color: #f44336;
+  }
+  .container {
+    padding: 16px;
+    text-align: center;
+  }
+  .modal {
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100;
+    overflow: hidden;
+    border: solid;
+    background-color: transparent gray;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    border: 1px solid #888;
+    width: 40%;
+    height: 150PX;
+  }
+
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+
+  .close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+  }
+  
+  .close:hover, .close:focus {
+    color: #f44336;
+    cursor: pointer;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .deletebutton {
+      width: 100%;
+    }
+  }
+
+  .resource_details{
+    font-size: 18px;
+    font-weight: 200;
+    display:flex;
+  }
+
+  .resource_specific_detail{
+    color:red;
+    font-weight:bold;
+  }

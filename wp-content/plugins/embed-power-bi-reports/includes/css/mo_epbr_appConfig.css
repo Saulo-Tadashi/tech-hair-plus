@@ -1,0 +1,16 @@
+ul li {  list-style-type: none;}
+.form-fields {  background: white;}
+.field {  padding: 5px;}
+.field:first-child {  border-top: none;}
+input[type="checkbox"] {  display: none;}
+.field {  display: relative;}
+.field label {  position: relative; line-height: 30px;  display: block;}
+.field label:before,.field label:after,.field label span:before,.field label span:after {  content: '';  display: block;  position: absolute;}
+.field label span {  position: relative;  cursor: pointer;  display: block;  float: right;}
+.check-round label span {  border-radius: 16px;  height: 25px;  width: 47px;}
+.check-round label span:before {  border-radius: 50%;  height: 20px;  width: 20px;  left: 2px;  top: 2px;}
+.check-round input:checked + label span:before {  left: 25px;}
+.check-round input:checked +  label span {background:#0078D4;}
+.check-round.slide-inverse label span {  background: white;  border: 1px solid #bdc3c7;}
+.check-round.slide-inverse label span:before {  background: #0078D4;  transition: left 0.3s ease-in, background 0.3s ease-in;}
+.check-round.slide-inverse input:checked + label span:before {  background: white;}

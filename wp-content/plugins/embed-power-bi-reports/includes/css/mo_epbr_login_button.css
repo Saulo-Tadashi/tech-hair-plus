@@ -1,0 +1,41 @@
+#loginform{
+    position: relative;
+     padding-top: 120px;
+}
+.pbibutton{
+    position: absolute;
+    top: 20px;
+    width: 85%;
+    cursor:pointer;
+}     
+.ssobutton{
+    display:inline-flex;
+    height:50px;
+    width: 100%;
+    padding: 8px;
+    margin-bottom:10px;
+    color:#fff;
+    border:1px grey solid;
+    border-radius:5px;
+    overflow:hidden;
+    background-color: #135e96;
+    cursor:pointer;
+}
+button.ssobutton{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+}
+.ssobutton_logo{
+    width:40px;
+}
+.ssobutton_logo img{
+    width: 100%;
+}
+.ssobutton_text{
+    width: 100%;
+    text-align:center;
+    font-size:14px;
+    cursor:pointer;
+}

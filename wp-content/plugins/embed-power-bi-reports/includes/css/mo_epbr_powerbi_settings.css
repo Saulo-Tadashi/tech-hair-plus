@@ -1,0 +1,33 @@
+.mo-ms-settings-tab-content{
+    padding: 15px 15px 15px;
+}
+.info_span{
+    color: #757575;
+}
+.info_p{
+    color: #757575;
+    margin-left:170px;
+}
+.input_label{
+    font-size: medium;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }

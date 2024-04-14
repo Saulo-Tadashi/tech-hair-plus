@@ -1,0 +1,14 @@
+.area{
+    background:  #d5e2ff;  
+    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+    width: 100%;
+    height:100vh;
+    width: 61%;
+    height: 145px;
+    border-block: solid cadetblue;
+    border-left: solid cadetblue;
+    border-right: solid cadetblue;
+    position: absolute;
+    margin-left: -7px;
+}
+

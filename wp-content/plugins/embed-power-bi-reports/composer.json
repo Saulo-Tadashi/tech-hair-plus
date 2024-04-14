@@ -1,0 +1,26 @@
+{
+  "name": "miniorange/embed-power-bi-reports",
+  "description": "This plugin will allow you to embed Microsoft Power BI reports, tiles, dashboards, Q & A, etc in WordPress site.",
+  "type": "plugin",
+  "keywords": ["Azure AD","Microsoft","Graph","Power BI","WordPress"],
+  "license": "GPLv2 or later",
+  "authors": [
+    {
+      "name": "miniOrange",
+      "email": "samlsupport@xecurify.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "MoEmbedPowerBI\\": "",
+      "MoEmbedPowerBI\\View\\": "View",
+      "MoEmbedPowerBI\\Wrappers\\": "Wrappers",
+      "MoEmbedPowerBI\\API\\": "API",
+      "MoEmbedPowerBI\\Controller\\": "Controller",
+      "MoEmbedPowerBI\\Observer\\": "Observer"
+    }
+  }
+}
